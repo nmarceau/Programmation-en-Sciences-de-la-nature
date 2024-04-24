@@ -1,0 +1,31 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "#### Test - Javascript et les notebooks\r\n\r\n$$a^2 + b^2 = c^2$$"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "let a = 3;\r\nlet b = 4;\r\nlet c = Math.sqrt(a * a + b * b);\r\n\r\nconsole.log(`L'hypoténuse d'un triangle rectangle de côtés de longueur ${a} et ${b} mesure ${c}.`)\r\n"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "L'hypoténuse d'un triangle rectangle de côtés de longueur 3 et 4 mesure 5.",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
